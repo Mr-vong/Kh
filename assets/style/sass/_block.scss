@@ -1,0 +1,32 @@
+.btn{
+    --background-btn: transparent;
+    --border-color: transparent;
+    --shadow-color: transparent;
+    --space-x: 0;
+    --space-y: 0;
+    --btn-radius: 20px;
+    --btn-fcolor: #fff;    
+    width: fit-content;
+    height: auto;
+    padding: var(--space-y) var(--space-x);
+    border: 1px solid var(--border-color);
+    border-radius: var(--btn-radius);
+    background-color: var(--background-btn);
+    box-shadow: 0 10px 5px var(--shadow-color);
+    color: var(--btn-fcolor);
+    transition: .25s;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;    
+    background-image: var(--gradient);
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.footer{
+    background-color: #9CC6C0;
+}

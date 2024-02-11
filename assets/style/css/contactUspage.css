@@ -1,0 +1,120 @@
+.contactUs-section{
+    display: flex;
+    column-gap: 1.5rem;
+    justify-content: center;
+    padding: calc(5rem + 50px) 0px;
+    background-color: #6F4E37;
+}
+.contactUs-illustration{
+    display: none;
+    width: 40%;
+    background-image: url(./../../images/contact_support_illustration.png);
+    background-size: cover;
+    background-position: center;
+}
+.contactUs-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactUs-heading{
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #fff;
+}
+.contactUs-forms{
+    display: flex;
+    border: 2px solid #fff;
+    padding: 50px 20px;
+    column-gap: 25px;
+}
+.contactUs-form{
+    display: flex;
+    flex-direction: column;
+}
+.contactUs-form input[type="text"], .contactUs-form input[type="email"]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.contactUs-form-btn{
+    --background-btn: #fff;
+    --shadow-color: rgba(0, 0, 0, .2);
+    --space-x: 30px;
+    --space-y: 10px;
+    --btn-fcolor: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contactUs-form input::placeholder{
+    color: rgba(255, 255, 255, .8);
+    font-size: 14px;
+}
+.contactUs-form input:focus{
+    border-color: rgba(255, 255, 255);
+}
+.contact-infoes .row{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 50%;
+}
+.contact-info-heading{
+    color: #fff;
+}
+.contact-info{
+    color: rgba(255, 255, 255, .8);
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .contactUs-section{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contactUs-illustration{
+        display: block;
+    }
+    .contactUs-container{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .contactUs-section{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .contactUs-container{
+        align-items: center;
+    }
+    .contactUs-heading{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .contactUs-forms{
+        padding: 60px 33px;
+        column-gap: 50px;
+    }
+    .contactUs-form input[type="text"], .contactUs-form input[type="email"]{
+        width: 250px;
+        font-size: 16px;
+    }
+    .contactUs-form input::placeholder{
+        font-size: 18px;
+    }
+    .contactUs-form-btn{
+        padding: 13px 40px;
+        font-size: 16px;
+    }
+    .contact-info-heading{
+        font-size: 1.8rem;
+    }
+    .contact-info{
+        font-size: 16px;
+    }
+}

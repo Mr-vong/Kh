@@ -1,0 +1,86 @@
+@each $head, $size in $headings{
+    .h#{$head}{
+        font-size: $size;
+        font-weight: 400;
+    }
+}
+@each $fname, $fpath in $fonts{
+    .f-#{$fname}{
+        font-family: "f-#{$fname}";
+    }
+}
+@each $size, $value in $font-size{
+    .fs-#{$size}{
+        font-size: #{$value};
+    }
+}
+@each $weight, $value in $font-weight{
+    .f-#{$weight}{
+        font-weight: $value;
+    }
+}
+@each $level, $gap in $row-gap{
+    .row-gap-#{$level}{
+        row-gap: #{$gap};
+    }
+}
+@each $level, $gap in $col-gap{
+    .col-gap-#{$level}{
+        column-gap: #{$gap};
+    }
+}
+@each $display, $value in $displays{
+    .d-#{$display}{
+        display: #{$value};
+    }
+}
+@each $level, $value in $z-indexs{
+    .z-index-#{$level}{
+        z-index: $value;
+    }
+}
+.space{
+    height: 250px;
+}
+.shadow{
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, .2);
+}
+.btn-click:active{
+    transform: translateY(10px);
+    box-shadow: none;
+    transition: .25s;
+}
+.btn-hover:hover{
+    filter: brightness(1.2)
+}
+
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.matcha-fcolor{
+    color: var(--f-matcha);
+}
+.coffee-fcolor{
+    color: var(--f-coffee);
+}
+.bakery-fcolor{
+    color: var(--f-bakery);
+}
+.matcha-theme{
+    background-color: var(--matcha-theme);
+}
+.coffee-theme{
+    background-color: var(--coffee-theme);
+}
+.bakery-theme{
+    background-image: var(--bakery-theme);
+}

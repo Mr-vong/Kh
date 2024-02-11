@@ -1,0 +1,6 @@
+@each $fname, $fpath in $fonts{
+    @font-face{
+        font-family: "f-#{$fname}";
+        src: url(./../../#{$fpath})
+    }
+}

@@ -1,0 +1,127 @@
+$h1: 7.993rem !default;
+$h2: 5.653rem !default;
+$h3: 2.441rem !default;
+$h4: 1.68rem !default;
+$h5: 1.3rem !default;
+
+$headings: (
+    1: $h1,
+    2: $h2,
+    3: $h3,
+    4: $h4,
+    5: $h5,
+) !default;
+
+$font-awesome-brand: "fonts/Font_Awesome_6_Brands_Regular-400.otf";
+$font-awesome-solid: "fonts/Font_Awesome_6_Solid-900.otf";
+$font-roboto-regular: "fonts/Roboto-Regular.ttf";
+$font-roboto-bold: "fonts/Roboto-Bold.ttf";
+$font-betterPastel: "fonts/Better_Pastel.ttf";
+$font-sundayCoffee: "fonts/Sundaycoffee-X3JKg.ttf";
+
+$fonts: (
+    "awesome-brand": $font-awesome-brand,
+    "awesome-solid": $font-awesome-solid,
+    "roboto-regular": $font-roboto-regular,
+    "roboto-bold": $font-roboto-bold,
+    "better-pastel": $font-betterPastel,
+    "sunday-coffee": $font-sundayCoffee,
+) !default;
+$fonts: (
+    "font_awesome_brand": $font-awesome-brand,
+    "font_awesome_solid": $font-awesome-solid,
+    "roboto_regular": $font-roboto-regular,
+    "roboto_bold": $font-roboto-bold,
+    "better_pastel": $font-betterPastel,
+    "sunday_coffee": $font-sundayCoffee,
+) !default;
+
+$primary: #706233;
+$secondary: #70614E;
+
+$black: #333;
+$black-80: shade-color($black, 80%) !default;
+$black-60: shade-color($black, 60%) !default;
+$black-40: shade-color($black, 40%) !default;
+$black-20: shade-color($black, 20%) !default;
+
+$blacks: (
+    20: $black-20,
+    40: $black-40,
+    60: $black-60,
+    80: $black-80,
+    100: $black,
+) !default;
+
+$f-matcha: #758755 !default;
+$f-coffee: #A68368 !default;
+$f-bakery: #5E4134 !default;
+
+$font-colors: (
+    "matcha": $f-matcha,
+    "coffee": $f-coffee,
+    "bakery": $f-bakery,
+) !default;
+
+$font-size: (
+    1: "1rem",
+    2: "1.3rem",
+    3: "1.6rem",
+    4: "2rem",
+) !default;
+
+$font-weight: (
+    "thin": 100,
+    "regular": 400,
+    "bold": 600,
+    "bolder": 900,
+)!default;
+
+$btn-matcha: #58663E;
+$btn-coffee: #634843;
+$btn-bakery: #854442;
+
+$btn-colors: (
+    "matcha": $btn-matcha,
+    "coffee": $btn-coffee,
+    "bakery": $btn-bakery,
+) !default;
+
+$theme-matcha: #A1B88B;
+$theme-coffee: #FFF8E7;
+$theme-bakery: linear-gradient(-45deg, rgba(255, 244, 230, 1), rgba(94, 65, 52, .46));
+
+$theme-colors: (
+    "matcha": $theme-matcha,
+    "coffee": $theme-coffee,
+    "bakery": $theme-bakery,
+) !default;
+
+$displays: (
+    "none": "none",
+    "block": "block",
+    "inline": "inline",
+    "flex": "flex",
+    "grid": "grid",
+) !default;
+
+$z-indexs: (
+    1: 9999,
+    2: 999,
+    3: 99,
+    4: 9,
+ ) !default;
+
+$row-gap: (
+    1: "1rem",
+    2: "1.5rem",
+    3: "2rem",
+    4: "2.5rem",
+) !default;
+
+$col-gap: (
+    1: "1rem",
+    2: "1.5rem",
+    3: "2rem",
+    4: "2.5rem",
+) !default;

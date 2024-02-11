@@ -1,0 +1,18 @@
+:root{
+    --font-family: "roboto_regular", sans-serif, serif, Arial;
+    --primary: #{$primary};
+    --secondary: #{$secondary};
+    --gradient: linear-gradient(to right, var(--primary), var(--secondary));
+    @each $weights, $colors in $blacks{
+        --black-#{$weights}: #{$colors};
+    }
+    @each $c-names, $colors in $font-colors{
+        --f-#{$c-names}: #{$colors};
+    }
+    @each $btn-names, $colors in $btn-colors{
+        --btn-#{$btn-names}: #{$colors};
+    }
+    @each $theme-names, $colors in $theme-colors{
+        --#{$theme-names}-theme: #{$colors};
+    }
+}
