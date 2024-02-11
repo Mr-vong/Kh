@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../assets/style/css/main.css">
+    <link rel="stylesheet" href="./../assets/style/css/menupage.css">
+    <title>KhinCaffein | Menu</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar z-index-1">
+            <div class="navbar-container">
+                <a class="navbar-brand h3 f-sunday-coffee" href="./home.html">KhineCaffien</a>
+                <i class="f-awesome-solid bars hamburger-bars">bars</i>
+                <div class="fullpage-nav d-none row-gap-4">
+                    <i class="f-awesome-solid x-mark nav-x-mark">x</i>
+                    <ul class="row navbar-nav d-flex flex-column row-gap-2 align-center">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover fs-4 f-bolder" href="./home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-link-hover fs-4 f-bolder" href="./menu.html">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover fs-4 f-bolder" href="./contactUs.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="row navbar-nav d-flex col-gap-3">
+                        <li class="nav-item">
+                            <a class="nav-icon-link f-awesome-brand facebook fs-3" href="#">facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-icon-link f-awesome-brand brand-instagram fs-3" href="#">instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-icon-link f-awesome-brand brand-x-twitter fs-3" href="#">x-twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav navbar-nav-right col-gap-3">
+                    <li class="nav-item">
+                        <a class="nav-icon-link f-awesome-brand facebook fs-2" href="#">facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-icon-link f-awesome-brand brand-instagram fs-2" href="#">instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-icon-link f-awesome-brand brand-x-twitter fs-2" href="#">x-twitter</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-middle col-gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover f-bold" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-hover f-bold" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover f-bold" href="./contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End navigation bar -->
+
+    <main>
+        <section class="menu-section">
+            <div class="menu-container">
+                <div class="menu-header">
+                    <h2 class="menu-heading f-better-pastel">Our menu</h2>
+                    <div class="filter">
+                        <ul class="filter-btns">
+                            <li class="btn filter-btn active f-better-pastel" data-catagory="all">All</li> 
+                            <li class="btn filter-btn f-better-pastel" data-catagory="matcha">Matcha</li>
+                            <li class="btn filter-btn f-better-pastel" data-catagory="coffee">Coffee</li>
+                            <li class="btn filter-btn f-better-pastel" data-catagory="bakery">Bakery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-cards">
+                    <div class="menu-card menu-matcha-card" data-catagory="matcha">
+                    <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/matcha_images/iced_matcha_latte.jpg" alt="Iced matcha latte image">
+                            <div class="card-price-label f-better-pastel --matcha">25.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Iced Matcha Latte</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="number" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-matcha-card" data-catagory="matcha">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/matcha_images/Matcha_Lemonade.jpg" alt="Matcha lemonade image">
+                            <div class="card-price-label f-better-pastel --matcha">30.000kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Matcha Lemonade</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-matcha-card" data-catagory="matcha">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/matcha_images/Matcha_Frappuccino.jpg" alt="Matcha frappuccino image">
+                            <div class="card-price-label f-better-pastel --matcha">30.000kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Matcha Frappuccino</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-matcha-card" data-catagory="matcha">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/matcha_images/Matcha_Smoothie.jpeg" alt="Matcha smoothie image">
+                            <div class="card-price-label f-better-pastel --matcha">33.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Matcha Frappuccino</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/iced-americano.jpg" alt="Iced americano image">
+                            <div class="card-price-label f-better-pastel --coffee">23.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Iced Americano</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/Iced-Vanilla-Latte.jpg" alt="Iced vanilla latte image">
+                            <div class="card-price-label f-better-pastel --coffee">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Iced Vanilla Latte</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/espresso.jpg" alt="Espresso image">
+                            <div class="card-price-label f-better-pastel --coffee">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Espresso</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/latte-art.jpg" alt="Latte art image">
+                            <div class="card-price-label f-better-pastel --coffee">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Latte Art</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/Flat-White.jpg" alt="Flat white image">
+                            <div class="card-price-label f-better-pastel --coffee">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Flat White</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-coffee-card" data-catagory="coffee">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/coffee_images/drip-coffee.jpg" alt="Drip coffee image">
+                            <div class="card-price-label f-better-pastel --coffee">35.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Drip Coffee</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/Garlic_Bread.jpg" alt="Garlic bread image">
+                            <div class="card-price-label f-better-pastel --bakery">20.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Garlic Bread</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/Croissant.jpg" alt="Croissant image">
+                            <div class="card-price-label f-better-pastel --bakery">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Butter Croissant</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/Chocolate_Croissants.jpg" alt="Chocolate croissant image">
+                            <div class="card-price-label f-better-pastel --bakery">30.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Chocolate Croissant</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/Ham-and-Cheese-Croissant.jpg" alt="Ham and cheese croissant image">
+                            <div class="card-price-label f-better-pastel --bakery">33.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Ham&Cheese Croissant</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/banana_cake.jpg" alt="Banana cake image">
+                            <div class="card-price-label f-better-pastel --bakery">25.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Banana Cake</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/Matcha-cake.jpg" alt="Matcha cake image">
+                            <div class="card-price-label f-better-pastel --bakery">25.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Matcha Cake</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="menu-card menu-bakery-card" data-catagory="bakery">
+                        <div class="menu-card-top">
+                            <img class="menu-card-img" src="./../assets/images/bakery_images/chocolate_cake.jpg" alt="Chocolate cake image">
+                            <div class="card-price-label f-better-pastel --bakery">25.000Kip</div>
+                        </div>
+                        <div class="menu-card-bottom">
+                            <h5 class="menu-card-name f-better-pastel">Chocolate Cake</h5>
+                            <div class="menu-card-purchase">
+                                <div class="number-picker">
+                                    <button class="btn decrease-btn">-</button>
+                                    <input class="number-picker-field" type="text" value="0">
+                                    <button class="btn increase-btn">+</button>
+                                </div>
+                                <button class="btn purchase-btn f-better-pastel">Buy</button>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="space"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content footer-left">
+                <div class="footer-brand">
+                    <a class="navbar-brand h2 f-sunday-coffee" href="#">KhineCaffien</a>
+                </div>
+                <div class="footer-icon-link">
+                    <a class="footer-icon-link f-awesome-brand brand-facebook fs-2" href="#">facebook</a>
+                    <a class="footer-icon-link f-awesome-brand brand-instagram fs-2" href="#">instagram</a>
+                    <a class="footer-icon-link f-awesome-brand brand-x-twitter fs-2" href="#">x-twitter</a>
+                </div>
+            </div>
+            <div class="footer-content footer-right">
+                <ul class="footer-links">
+                    <li class="footer-link-heading">Menu</li>
+                    <li>
+                        <a class="footer-link" href="./menu.html">Matcha</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="./menu.html">Coffee</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="./menu.html">Bakery</a>
+                    </li>
+                </ul>
+                <ul class="footer-links">
+                    <li class="footer-link-heading">Help</li>
+                    <li>
+                        <a class="footer-link" href="./contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <!-- End footer -->
+    <script src="./../js/main.js" type="module"></script>
+</body>
+</html>
